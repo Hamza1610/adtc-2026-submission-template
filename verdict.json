@@ -1,0 +1,40 @@
+{
+  "team_id": "YOUR_ACTUAL_TEAM_ID",
+  "verdict": "pass",
+  "checks": [
+    {
+      "field": "memory.peak_rss_mb",
+      "submission": 725.72,
+      "audit": 725.76,
+      "delta_pct": 0.01,
+      "tolerance_pct": 15.0,
+      "status": "pass"
+    },
+    {
+      "field": "memory.steady_state_rss_mb",
+      "submission": 683.35,
+      "audit": 687.43,
+      "delta_pct": 0.6,
+      "tolerance_pct": 15.0,
+      "status": "pass"
+    },
+    {
+      "field": "throughput.tokens_per_second_generation",
+      "submission": 33.11,
+      "audit": 31.69,
+      "delta_pct": -4.29,
+      "tolerance_pct": 25.0,
+      "status": "pass"
+    },
+    {
+      "field": "throughput.first_token_latency_ms",
+      "submission": 5132.9,
+      "audit": 5140.21,
+      "delta_pct": 0.14,
+      "tolerance_pct": 25.0,
+      "status": "pass"
+    }
+  ],
+  "accuracy_audit": [],
+  "notes": []
+}
